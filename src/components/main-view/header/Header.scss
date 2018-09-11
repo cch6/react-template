@@ -1,0 +1,66 @@
+.header {
+  width: 100%;
+  height: 50px;
+  background: #081248;
+  padding: 0 50px;
+  border-bottom: 2px solid #86e1e8;
+  h1 {
+    display: block;
+    float: left;
+    color: #fff;
+    font-weight: 200;
+    line-height: 50px;
+    font-size: 26px;
+    font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+    margin: 0;
+  }
+  .right {
+    float: right;
+  }
+  .option,
+  .date-time {
+    height: 44px;
+    margin-top: 3px;
+    padding: 0 30px;
+    float: left;
+  }
+  .option {
+    line-height: 44px;
+    .btn-icon {
+      margin: 0 20px;
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.6);
+      vertical-align: middle;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+      }
+    }
+    .user-name {
+      margin-left: 20px;
+      font-size: 12px;
+      color: #2DB7F5
+    }
+  }
+  .date-time {
+    margin: 8px 0;
+    height: calc(100% - 22px);
+    font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+    font-weight: 200;
+    color: #2DB7F5;
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 18px;
+    border-left: 1px solid #406d8f;
+  }
+  .search-input{
+    // position: absolute;
+    // right:380px;
+    float: left;
+    opacity: 0;
+    transition: 0.5s;
+  }
+    .show-search{
+    opacity: 1;
+  }
+}

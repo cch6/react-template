@@ -1,0 +1,43 @@
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+selenium-debug.log
+test/unit/coverage
+test/e2e/reports
+
+
+# maven ignore
+target/
+log/
+.gitkeep
+# package ignore
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+# eclipse ignore
+.settings/
+.project
+.classpath
+bin/
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+# system ignore
+.DS_Store
+Thumbs.db
+# javascript ignore
+node_modules/
+dist/
+package-lock.json
+.history/
